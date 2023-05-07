@@ -1,0 +1,200 @@
+/*INDEX:Menu principal*/
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: $FuenteGrande;
+    
+    
+    li{
+    display: inline-block;
+    padding: 10px 50px;
+    margin:auto;
+    background-color: $ColorSecundario;
+    color: black;
+
+    a{     
+        text-decoration: none;
+        color: black;
+        &:hover{
+            font-size: 30px;
+            background-color: $ColorPrincipal;
+    }
+        &:active{
+            background-color: $ColorPrincipal;
+            color: black;
+            font-weight: bolder;
+    }
+        &:visited{
+            text-decoration: none;
+            color: rgb(48, 101, 44);
+
+        }
+}
+}
+}
+/*INDEX:BODY*/
+body {
+    background-color: rgb(182, 202, 127);
+}
+main {
+    h1 {
+        background-color: $ColorPrincipal;
+        color: black;
+        font-size:xx-large;
+        text-align: center;
+        padding: 30px;
+
+    }
+    .imagen1{
+        justify-content:center;
+        width: 1150px;
+        height: 350px;
+        margin: 50px;
+    }
+    p{
+        background-color:rgba(231, 248, 247, 0.877);
+        text-align:justify;
+        font-size:x-large;
+        color:darkolivegreen;
+        padding: 40px;
+        margin: 0px;
+        }
+    }
+section{
+        background-color: rgb(224, 237, 83);
+        h2{
+            background-color: rgb(197, 236, 236);
+            color: #000;
+            font-size:x-large;
+            text-align: center;
+            padding: 20px;
+    }
+    iframe{
+        justify-items: center;
+        margin: 70px;
+    }
+    }
+    div{
+        background-color:rgb(171, 222, 222);
+        h2{
+            background-color: green;
+            color:#000;
+            font-size: large;
+            text-align: center;
+            padding: 20px;
+            }
+        p{background-color:rgba(231, 248, 247, 0.877);
+            text-align:justify;
+            font-size:x-large;
+            color:darkolivegreen;
+            padding: 40px;
+            margin: 0px;
+
+            }
+            a{     
+                text-decoration: none;
+                color: black;
+                font-size: medium;
+                &:hover{
+                    font-size: 15px;
+                    background-color: $ColorPrincipal;
+            }
+                &:active{
+                    background-color: $ColorPrincipal;
+                    color: black;
+                    font-weight:bold;
+            }
+                &:visited{
+                    text-decoration: none;
+                    color: rgb(48, 101, 44);
+        
+                }
+            }
+            
+    }
+
+        
+    footer{
+        h5{
+            background-color: rgb(34, 0, 255);
+            color: black;
+            font-size: small;
+        }
+        a{     
+            text-decoration: none;
+            color: black;
+            font-size: medium;
+            &:hover{
+                font-size: 15px;
+                background-color: $ColorPrincipal;
+        }
+            &:active{
+                background-color: $ColorPrincipal;
+                color: black;
+                font-weight:bold;
+        }
+            &:visited{
+                text-decoration: none;
+                color: rgb(48, 101, 44);
+    
+            }
+        }
+    }
+/*Historia*/
+
+.Historia {
+    background-color: $ColorSecundario;
+    color:crimson;
+    main{
+        h1{
+            background-color:rgba(120, 16, 161, 0.207);
+            color:#000;
+            font-size: xx-large;
+            padding: 20px;
+            margin: 20px;
+        }
+        h2 {
+            background-color:aqua;
+            color: #000;
+            font-size:x-large;
+            padding: 20px;
+            margin: 20px;
+        }
+        p {
+            background-color:#000;
+            color:beige;
+        }
+        img {
+            justify-content: center;
+            align-content:center;
+            padding: 30px;
+            margin: 20px;
+            width: 1000px;
+            height: 500px;
+        }
+        }
+}
+
+.Menu {
+    header {
+        margin: 2px;
+        padding: 2px;;
+    }
+    
+    input:focus{
+        height: 30px ;
+        background-color: rgb(186, 151, 219);
+    }
+    
+    input[type="checbox"]:checked{
+        box-shadow: 0 0 0 3px pink;
+    }
+    
+    imput[type="checbox"]:checked~.gracias{
+        display: block;
+    }
+    }

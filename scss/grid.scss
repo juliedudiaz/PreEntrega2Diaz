@@ -1,0 +1,145 @@
+/*GRID INDEX*/
+.contenedorTotal {
+    display: grid;
+    background-color: rgb(236, 211, 211);
+    width: 100%;
+    height: 100%;
+    column-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 0.2fr 1fr 1fr 1fr 0.2fr;
+    grid-template-areas:
+        "menu menu"
+        "main main"
+        "clima section"
+        "footer footer"
+
+}
+
+.Encabezado {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+    align-items: center;
+    justify-items: center;
+}
+
+.section {
+    grid-area: section;
+}
+
+.clima {
+    grid-area: clima;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+/*UBICACION GEOGRAFICA*/
+.Contenedor {
+    display: grid;
+    background-color: rgb(236, 211, 211);
+    width: 100%;
+    height: 100%;
+    column-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 0.2fr 1fr 1fr 1fr 0.2fr;
+    grid-template-areas:
+        "Titulo1 Titulo1"
+        "Texto1 Texto1"
+        "imagen2 mapa"
+        "imagen2 mapa"
+        "footer footer"
+}
+
+.Titulo1 {
+    grid-area: Titulo1;
+    background-color: $ColorPrincipal;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+}
+
+.Texto1 {
+    grid-area: Texto1;
+    background-color: rgba(231, 248, 247, 0.877);
+    text-align: justify;
+    font-size: x-large;
+    color: darkolivegreen;
+    padding: 40px;
+    margin: 0px;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+    grid-auto-flow: column;
+
+}
+
+.mapa {
+    grid-area: mapa;
+}
+.footer {
+    grid-area: footer;
+}
+/*COMIDAD TIPICAS*/
+.Menu {
+    display:grid;
+    grid-column: 2fr 2fr;
+    grid-gap: 20px;
+    grid-template-rows: 20 px 20px;
+    background-color: antiquewhite;
+    height: 250%;
+    width: 100%;
+    
+    
+    grid-template-areas:
+    "menu menu" 
+    "item1 item1"
+    "item2 item2"
+    "item4 item5"
+    "item6 item7"
+    "item8 item8"
+}
+    .imagen3 {
+    width: 500px;
+    height: 300px;
+    flex-wrap: nowrap;
+    }
+    .item0{
+        grid-area: menu;
+    }
+    .item1{
+        grid-area: item1;
+
+    }
+    .item2{
+        grid-area: item2;
+    }
+    .item3{
+        grid-area: item3;
+    }
+    .item4{
+        grid-area: item4;
+    }
+    .item5{
+        grid-area: item5;
+    }
+    .item6{
+        grid-area: item6;
+    }
+    .item7{
+        grid-area: item7;
+    }
+    .footer{
+        grid-area: item8;
+    }
+    

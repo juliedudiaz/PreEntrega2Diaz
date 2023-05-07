@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,15 @@
     <title>Contacto</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
+
 <body class="Menu">
-    <header class="tituloRojo">
-        
+    <header>
         <nav>
             <ul>
                 <li>
@@ -26,65 +27,55 @@
                 <li><a href="Historia.html">Historia</a></li>
                 <li><a href="Comidas tipicas.html">Comidas tipicas</a></li>
             </ul>
-            
-            
         </nav>
-        
+
     </header>
 
-    <h1 class="tituloAzul">Contacto</h1>
+
 
     <main>
 
-    <form>
-        <div>
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="Nombre">
-        </div>
+        <h1>Contacto</h1>
 
-        <div>
-        <label  for="Correo">Correo:</label>
-            <input type="email"email name="Correo">
-        </div>
+        <form>
 
-        <div>
-            <label for="Mensaje"Deja tu Mensaje></label>
-            <textarea name="Mensaje" cols="30" rows="10"></textarea>
-        </div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre">
 
-        <div class="tituloVerde">
-            <label for="Sexo">Indique su Sexo</label>
-            <input type="radio" name="Sexo" value="F">F
-            <input type="radio" name="Sexo" value="M">M
-            <input type="radio" name="Sexo" value="PE">prefiero no expecificar
-        </div>
+                <label for="Correo">Correo:</label>
+                <input type="email" email name="Correo">
 
-        <div>
-            <label for="Pai">Elegi el pais</label>
-            <select name="pais">
-                <option value="-">-------</option>
-                <option value="ARG">Arg</option>
-                <option value="CHI">Chi</option>
-                <option value="BR">Br</option>
-            </select>
-        </div>
+                <label for="Mensaje" Deja tu Mensaje></label>
+                <textarea name="Mensaje" cols="30" rows="10"></textarea>
 
-        <fieldset>
-            <label for="Terminos">Aceptas Terminos y condiciones</label>
-            <input type="checkbox" name="Terminos" value="si required">
-            <p class="gracias">Gracias por aceptar</p>
-            <label for="Datos">Aceptas mostrarnos tus datos</label>
-        </fieldset>
+                <label for="Sexo">Indique su Sexo</label>
+                <input type="radio" name="Sexo" value="F">F
+                <input type="radio" name="Sexo" value="M">M
+                <input type="radio" name="Sexo" value="PE">prefiero no expecificar
 
-        <div>
-            <input type="button" value="Solo funciona con Javascript">
+                <label for="Pai">Elegi el pais</label>
+                <select name="pais">
+                    <option value="-">-------</option>
+                    <option value="ARG">Arg</option>
+                    <option value="CHI">Chi</option>
+                    <option value="BR">Br</option>
+                </select>
 
-            <input type="reset" value="Borra todo el contenido">
 
-            <input type="submit" value="Envia este formulario">
+            <fieldset>
+                <label for="Terminos">Aceptas Terminos y condiciones</label>
+                <input type="checkbox" name="Terminos" value="si required">
+                <p class="gracias">Gracias por aceptar</p>
+                <label for="Datos">Aceptas mostrarnos tus datos</label>
+            </fieldset>
 
-        </div>
-        </form>
+                <input type="button" value="Solo funciona con Javascript">
+
+                <input type="reset" value="Borra todo el contenido">
+
+                <input type="submit" value="Envia este formulario">
+
+            </form>
     </main>
 
     <footer class="footer">
@@ -96,4 +87,5 @@
     </footer>
 
 </body>
+
 </html>
